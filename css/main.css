@@ -11,7 +11,7 @@ html {
 h1 {
   font-family: 'Sigmar One', cursive;
   font-size: 3rem;
-  color: #cc1465;
+  color: #b20953;
   text-align: center;
   margin: 0;
 }
@@ -23,7 +23,7 @@ body {
 header {
   background-color: #ffe500;
   text-align: center;
-  padding: .2em;
+  padding: .5em;
 }
 
 li {
@@ -31,7 +31,6 @@ li {
   background-color: #b2a212;
   border-radius: 4px;
   padding: .3em;
-  margin: .3em;
 }
 
 a {
@@ -42,7 +41,7 @@ a {
 h2 {
   font-family: 'Sigmar One', cursive;
   font-size: 1.875rem;
-  color: #cc1465;
+  color: #b20953;
   text-align: left;
 }
 
@@ -56,5 +55,27 @@ footer {
   background-color: #ffe500;
   font-size: .75rem;
   padding: .3em;
+  margin-left: 0;
+  margin-right: 0;
+}
 
+img {
+  width: 100%
+}
+
+figure {
+  margin: 0;
+}
+
+.fruits {
+  background-color: #b20953;
+}
+
+li:hover {
+  background-color: #cc1465;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
